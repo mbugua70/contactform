@@ -1,0 +1,87 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact-form</title>
+    <link
+      rel="stylesheet"
+      href="/font-6/fontawesome-free-6.2.0-web/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rancho&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="flex">
+        <main class="main--form">
+          <h1 class="logo">jm</h1>
+          <div class="form-two">
+            <h1 class="heading-formtwo">Info</h1>
+            <div class="info-one info">
+              <span><i class="fa-solid fa-envelope fa-2x"></i></span>
+              <span>johnmbugua23code@gmail.com</span>
+            </div>
+            <div class="info-two info">
+              <span><i class="fa-solid fa-phone fa-2x"></i></span>
+              <span>+254 728 781 720</span>
+            </div>
+            <div class="info-three info">
+              <span><i class="fa-solid fa-city fa-2x"></i></span>
+              <span>Nairobi,Kenya</span>
+            </div>
+          </div>
+          <div class="form-one">
+            <h1 class="heading--form">Get in touch</h1>
+            <form
+              action="https://formsubmit.co/johnmbugua23code@gmail.com"
+              method="POST"
+              class="style-form"
+            >
+              <label for="firstname-el">Name</label>
+              <input
+                type="text"
+                name="firstname"
+                id="firstname-el"
+                placeholder="Enter your name"
+                required
+                class="input"
+              />
+              <label for="email-el">Email</label>
+              <input
+                class="input"
+                type="email"
+                name="email"
+                id="email-el"
+                placeholder="Enter your Email"
+                required
+              />
+              <textarea
+                name="message"
+                id="message"
+                class="textarea"
+                rows="7"
+                placeholder="Message"
+                required
+              ></textarea>
+
+              <input type="submit" value="SEND" class="submit-el" />
+            </form>
+          </div>
+        </main>
+        <div class="crimson"></div>
+      </div>
+    </div>
+  </body>
+</html>
